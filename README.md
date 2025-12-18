@@ -1,10 +1,3 @@
-Based on the file names visible in your first screenshot and the folder structure in your second screenshot, I have updated the `README.md`.
-
-I have organized the screenshots by user role (Admin, Instructor, Student) to match your features section. I used the exact folder name `Screenshots/` (with a capital "S") as shown in your GitHub file tree.
-
-Here is the complete code. You can replace your entire current file with this:
-
-```markdown
 # University ERP System
 
 **Authors:**
@@ -111,9 +104,3 @@ Navigate to `src/main/java/com/erp/database/DatabaseConnector.java` (or equivale
 ```java
 private static final String DB_USER = "root";
 private static final String DB_PASSWORD = "YOUR_MYSQL_PASSWORD";
-
-```
-
-```
-
-```
