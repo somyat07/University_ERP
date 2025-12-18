@@ -73,4 +73,4 @@ Navigate to `src/main/java/com/erp/database/DatabaseConnector.java` (or equivale
 
 ```java
 private static final String DB_USER = "root";
-private static final String DB_PASSWORD = "YOUR_MYSQL_PASSWORD";# University_ERP
+private static final String DB_PASSWORD = "YOUR_MYSQL_PASSWORD";
