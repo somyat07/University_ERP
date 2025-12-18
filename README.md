@@ -1,3 +1,10 @@
+Based on the file names visible in your first screenshot and the folder structure in your second screenshot, I have updated the `README.md`.
+
+I have organized the screenshots by user role (Admin, Instructor, Student) to match your features section. I used the exact folder name `Screenshots/` (with a capital "S") as shown in your GitHub file tree.
+
+Here is the complete code. You can replace your entire current file with this:
+
+```markdown
 # University ERP System
 
 **Authors:**
@@ -8,6 +15,36 @@
 The **University ERP System** is a robust desktop application developed using **Java and Swing**, designed to digitize and streamline academic operations. The system manages the core lifecycle of academic administration, including user management, course cataloging, section allotment, student enrollment, and grade computation.
 
 The project features a **Role-Based Access Control (RBAC)** system with three distinct dashboards (Admin, Instructor, Student) and implements a unique **Dual-Database Architecture** to separate sensitive authentication data from general ERP records.
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Authentication
+![Login Screen](Screenshots/Login.png)
+
+### 🛠 Admin Module
+| Dashboard | User Management |
+| :---: | :---: |
+| ![Admin Dashboard](Screenshots/Admin_dashboard.png) | ![Add User](Screenshots/Add_user.png) |
+
+| Course Mgmt | Section Allotment | Deadlines |
+| :---: | :---: | :---: |
+| ![Course Mgmt](Screenshots/Course_management.png) | ![Section Mgmt](Screenshots/Section_management.png) | ![Deadlines](Screenshots/deadline.png) |
+
+### 🎓 Instructor Module
+| Dashboard | Grading | Statistics |
+| :---: | :---: | :---: |
+| ![Instructor Dash](Screenshots/Instructor_dashboard.png) | ![Compute Scores](Screenshots/Compute_scores.png) | ![Class Stats](Screenshots/Class_stats.png) |
+
+### 📚 Student Module
+| Dashboard | Course Catalog | Drop Course |
+| :---: | :---: | :---: |
+| ![Student Dash](Screenshots/Student_dashboard.png) | ![Catalog](Screenshots/Course_catalog.png) | ![Drop Course](Screenshots/Drop_course.png) |
+
+| Timetable | Transcripts/Grades |
+| :---: | :---: |
+| ![Timetable](Screenshots/Timetable.png) | ![Grades](Screenshots/Grades.png) |
 
 ---
 
@@ -35,7 +72,7 @@ The project features a **Role-Based Access Control (RBAC)** system with three di
     * View assigned sections.
     * **Dynamic Grading:** Enter scores for Quiz (20), Midsem (30), and Endsem (50).
     * **Auto-Computation:** System automatically calculates totals and assigns Letter Grades (A/B/C/D/F).
-    * View Class Statistics (Max, Min, Avg scores).
+    * **View Class Statistics:** (Max, Min, Avg scores).
 
 ---
 
@@ -74,3 +111,9 @@ Navigate to `src/main/java/com/erp/database/DatabaseConnector.java` (or equivale
 ```java
 private static final String DB_USER = "root";
 private static final String DB_PASSWORD = "YOUR_MYSQL_PASSWORD";
+
+```
+
+```
+
+```
